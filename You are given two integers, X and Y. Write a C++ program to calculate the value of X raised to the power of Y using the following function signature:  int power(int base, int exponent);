@@ -1,0 +1,16 @@
+int power(int base, int exponent)
+{
+    int pow=1;
+    if(exponent==0)
+    {
+        return 1;
+    }
+    else
+    {
+        for(int i=1;i<=exponent;i++)
+        {
+            pow*=base;
+        }
+    }
+    return pow;
+}
