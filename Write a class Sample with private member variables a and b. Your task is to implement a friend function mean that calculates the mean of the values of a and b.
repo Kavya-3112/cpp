@@ -1,0 +1,15 @@
+class Sample {
+private:
+    int a, b;
+
+public:
+    void setValues(int valueA, int valueB) {
+        a = valueA;
+        b = valueB;
+    }
+
+    friend double mean(const Sample& s){
+    return (s.a + s.b) / 2.0;
+    }
+
+};
