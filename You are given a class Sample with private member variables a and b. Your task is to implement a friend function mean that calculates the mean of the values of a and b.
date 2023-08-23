@@ -1,0 +1,6 @@
+Sample x;
+int k,a;
+cin>>k>>a;
+x.setValues(k,a);
+double average = mean(x);
+cout << "Mean: " << average;
