@@ -1,0 +1,4 @@
+int addNumbers(int k=0,int a=0,int v=0)
+{
+    return k+a+v;
+}
